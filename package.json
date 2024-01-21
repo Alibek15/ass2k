@@ -1,0 +1,32 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "Weather app using Google Places API & Open Weather API",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "node.js",
+    "weatherApp",
+    "3rd",
+    "party",
+    "APIs",
+    "express"
+  ],
+  "homepage": "",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "dotenv": "^8.6.0",
+    "nodemon": "^2.0.4"
+  }
+}
